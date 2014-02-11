@@ -1,0 +1,145 @@
+/*!
+ * Doc_style v1.0
+ * Copyright 2014 FireWare, Ltda.
+ * Mr. William H. Knight (http://www.mrwilliamk.cl)
+ */
+@font-face {
+    font-family: 'helvetica_neue_lt_27ultraLtCn';
+    src: url('../fonts/helveticaneueltstd-ultltcn-webfont.eot');
+    src: url('../fonts/helveticaneueltstd-ultltcn-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneueltstd-ultltcn-webfont.woff') format('woff'),
+         url('../fonts/helveticaneueltstd-ultltcn-webfont.ttf') format('truetype'),
+         url('../fonts/helveticaneueltstd-ultltcn-webfont.svg#helvetica_neue_lt_27ultraLtCn') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans-bold-webfont.eot');
+    src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff'),
+         url('../fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans-light-webfont.eot');
+    src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-light-webfont.woff') format('woff'),
+         url('../fonts/opensans-light-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+ 
+body {
+	font-weight:lighter;
+    font-family: 'open_sanslight';
+	
+}
+* {
+	outline:none !important;
+	text-decoration:none !important;
+}
+a, a:hover, a:focus {
+	text-decoration:none !important;	
+}
+h1, h2 {
+    font-family: 'helvetica_neue_lt_27ultraLtCn';
+	font-weight:lighter;
+	text-transform:uppercase;
+}
+
+.navbar {
+	border-radius:0;
+	-webkit-border-radius:0;
+	margin:0;
+}
+#cover {
+	display:block;
+	clear:none;
+	float:none;
+	text-align:center;
+}
+.inner_content {
+	margin:auto;
+	display:block;
+	float:none;
+}
+#cover_logo {
+	width:230px;
+	height:230px;
+	text-align:center;
+	margin:30px auto;
+}
+.rounded_content {
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	overflow:hidden;
+	text-align:center;
+	box-shadow:0 0 15px rgba(0,0,0,.3);
+	-webkit-box-shadow:0 0 15px rgba(0,0,0,.3);
+}
+.rounded_content img {
+	height:100%;
+	display:block;
+	margin:auto;
+}
+
+footer {
+	width:100%;
+	display:block;
+	margin:0;
+	padding:10px 0;
+	text-align:center;
+	background:#88cfc7;
+	position:absolute;
+	bottom:0;
+	color:#fff;
+	text-shadow:0 1px 3px rgba(0,0,0,.3);
+}
+.details {
+	text-transform:uppercase;
+	margin:10px auto;	
+}
+.botonera {
+	display:block;
+	width:100%;
+	float:none;
+	clear:both;
+	padding:5px 15px;
+	min-height:15px;
+}
+.botonera * {
+	display:inline-block;
+	margin:auto;
+	text-align:center;
+}
+
+footer .botonera .fa {
+	color:#fff;
+	margin:0 7px;
+}
+
+@media screen and (min-width:768px) {
+	.navbar-toggle.fa-bars {
+		display:none;
+	}
+}
+@media screen and (max-height:600px) {
+	footer {
+		position:relative;
+	}
+}
