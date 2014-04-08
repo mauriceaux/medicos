@@ -1,5 +1,6 @@
 <?php
 class ComunasController extends AppController {
-    var $scaffold;
+    //var $scaffold;
+	public $scaffold;
 }
 ?>
