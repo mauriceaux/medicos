@@ -1,8 +1,10 @@
 <?php
 
 	class Persona extends AppModel{
-		//var $hasMany = array ('coments');
-		//ver la referencia
+
 		public $useTable = 'persona';
+		var $primaryKey = 'id_persona';
+
+		var $hasMany = array ('especialidad');
 	}
 ?>
