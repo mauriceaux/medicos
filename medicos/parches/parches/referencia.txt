@@ -1,0 +1,13 @@
+ALTER TABLE
+    medicos.direccion ADD (id_comuna INT)
+
+ALTER TABLE
+    medicos.direccion ADD CONSTRAINT id_comuna FOREIGN KEY (id_comuna) REFERENCES medicos.comuna
+    (id_comuna)
+
+ALTER TABLE
+    medicos.persona ADD (id_especilidad INT NOT NULL)
+
+ALTER TABLE
+    medicos.persona ADD CONSTRAINT id_especialidad FOREIGN KEY (id_especilidad) REFERENCES
+    medicos.especialidad (id_especialidad)
