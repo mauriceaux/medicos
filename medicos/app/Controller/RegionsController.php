@@ -1,6 +1,7 @@
 <?php
 class RegionsController extends AppController {
-    var $scaffold;
+    public $helpers = array('Html','Form');
 	
+	var $scaffold;
 }
 ?>

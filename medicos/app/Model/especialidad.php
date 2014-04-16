@@ -4,5 +4,7 @@
 		//var $hasMany = array ('coments');
 		//ver la referencia
 		public $useTable = 'especialidad';
+		public $name = 'especialidad';
+
 	}
 ?>

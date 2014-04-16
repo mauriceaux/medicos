@@ -1,6 +1,7 @@
 <?php
 class EspecialidadsController extends AppController {
-    var $scaffold;
+    public $helpers = array('Html','Form');
 	
+	var $scaffold;
 }
 ?>

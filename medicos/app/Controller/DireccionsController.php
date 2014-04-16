@@ -1,6 +1,8 @@
 <?php
 class DireccionsController extends AppController {
-    var $scaffold;
+	public $helpers = array('Html','Form');
 	
+	var $scaffold;
+
 }
 ?>
